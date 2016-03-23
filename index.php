@@ -6,7 +6,7 @@ include 'inc/header.inc';
   <div class="page-header">
 	<h1>Welcome to Closets</h1>
   </div>
-  <p class="lead">This site is gonna be totally sweet!</p>
+  <p class="lead">This site is gonna be totally sweet!!!</p>
   
 </div>
 <?php
