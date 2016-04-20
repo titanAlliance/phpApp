@@ -11,13 +11,13 @@
 
     <title>Closets, Closets, Closets</title>
 	
-	<link href="assets/css/closets.css" rel="stylesheet">
+	<link href="http://localhost/phpApp/assets/css/closets.css" rel="stylesheet">
 	
     <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="http://localhost/phpApp/assets/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/sticky-footer-navbar.css" rel="stylesheet">
+    <link href="http://localhost/phpApp/assets/css/sticky-footer-navbar.css" rel="stylesheet">
 
    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -42,14 +42,14 @@
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">
-            <li><a href="index.php">Home</a></li>
+            <li><a href="http://localhost/phpApp/index.php">Home</a></li>
             <li><a href="#about">About</a></li>
             <li><a href="#contact">Contact</a></li>
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
               <ul class="dropdown-menu">
                 <li><a href="#">Games</a></li>
-                <li><a href="indexUsers.php">Users</a></li>
+                <li><a href="http://localhost/phpApp/users/indexUsers.php">Users</a></li>
                 <li><a href="#">Something else here</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Nav header</li>

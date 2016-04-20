@@ -1,5 +1,5 @@
 <?php
-require 'inc/dbcon.inc';
+require '../inc/dbcon.inc';
 $firstName = $_POST['firstName'];
 $lastName = $_POST['lastName'];
 $alias = $_POST['alias'];

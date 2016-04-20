@@ -1,6 +1,6 @@
 <?php
-include 'inc/header.inc';
-require 'inc/dbcon.inc';
+include '../inc/header.inc';
+require '../inc/dbcon.inc';
 ?>
 <!-- Begin page content -->
 <div class="container">
@@ -34,5 +34,5 @@ require 'inc/dbcon.inc';
   
 </div>
 <?php
-include 'inc/footer.inc';
+include '../inc/footer.inc';
 ?>
