@@ -1,6 +1,6 @@
 <?php
-include 'inc/header.inc';
-require 'inc/dbcon.inc';
+include '../inc/header.inc';
+require '../inc/dbcon.inc';
 if(isset($_POST['firstName'])){
 	$firstName = $_POST['firstName'];
 	$lastName = $_POST['lastName'];
@@ -71,5 +71,5 @@ $users = $statement->fetchall();
   
 </div>
 <?php
-include 'inc/footer.inc';
+include '../inc/footer.inc';
 ?>

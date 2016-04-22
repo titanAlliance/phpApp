@@ -1,6 +1,6 @@
 <?php
-include 'inc/header.inc';
-require 'inc/dbcon.inc';
+include '../inc/header.inc';
+require '../inc/dbcon.inc';
 
 $email = $_GET['email'];
 
@@ -44,5 +44,5 @@ $user = $statement->fetch();
   
 </div>
 <?php
-include 'inc/footer.inc';
+include '../inc/footer.inc';
 ?>

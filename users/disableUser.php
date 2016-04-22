@@ -1,5 +1,5 @@
 <?php
-require 'inc/dbcon.inc';
+require '../inc/dbcon.inc';
 $email = $_GET['email'];
 
 
