@@ -48,9 +48,11 @@
             <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Actions <span class="caret"></span></a>
               <ul class="dropdown-menu">
-                <li><a href="#">Games</a></li>
+                <li><a href="http://localhost/phpApp/games/indexGames.php">Games</a></li>
                 <li><a href="http://localhost/phpApp/users/indexUsers.php">Users</a></li>
-                <li><a href="#">Something else here</a></li>
+                <li><a href="http://localhost/phpApp/genres/indexGenres.php">Genres</a></li>
+				<li><a href="http://localhost/phpApp/esrb/indexEsrbs.php">ESRB Ratings</a></li>
+                <li><a href="http://localhost/phpApp/platforms/indexPlatforms.php">Platforms</a></li>
                 <li role="separator" class="divider"></li>
                 <li class="dropdown-header">Nav header</li>
                 <li><a href="#">Separated link</a></li>
