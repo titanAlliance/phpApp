@@ -14,7 +14,7 @@
 	<link href="http://localhost/phpApp/assets/css/closets.css" rel="stylesheet">
 	
     <!-- Bootstrap core CSS -->
-    <link href="http://localhost/phpApp/assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.6/cosmo/bootstrap.min.css" rel="stylesheet" integrity="sha384-OiWEn8WwtH+084y4yW2YhhH6z/qTSecHZuk/eiWtnvLtU+Z8lpDsmhOKkex6YARr" crossorigin="anonymous">
 
     <!-- Custom styles for this template -->
     <link href="http://localhost/phpApp/assets/css/sticky-footer-navbar.css" rel="stylesheet">
@@ -38,7 +38,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="index.php">Closets</a>
+          <a class="navbar-brand" href="http://localhost/phpApp/index.php">Closets</a>
         </div>
         <div id="navbar" class="collapse navbar-collapse">
           <ul class="nav navbar-nav">

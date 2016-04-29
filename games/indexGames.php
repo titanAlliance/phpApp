@@ -23,7 +23,7 @@ if(isset($_POST['title'])){
 	$statement->execute();
 }
 
-$query = "SELECT title, releaseDate, platformId, publisherId, esrbRatingId, parentGame FROM games INNER JOIN userLevels on games.publisherId = publisher.publishId";
+$query = "SELECT title, releaseDate, platformId, publisherId, esrbRatingId, parentGame FROM games";
 	
 $statement = $db->prepare($query);
 $statement->execute();
