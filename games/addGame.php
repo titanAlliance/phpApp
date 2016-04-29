@@ -1,6 +1,11 @@
 <?php
 include '../inc/header.inc';
 require '../inc/dbcon.inc';
+
+$platformsQuery = "SELECT * FROM platforms";
+$platformsStatement = $db->prepare($platformsQuery);
+$platformsStatement->execute();
+$platforms = $platformsStatement->fetchall();
 ?>
 
 <!-- Begin page content -->
@@ -9,18 +14,22 @@ require '../inc/dbcon.inc';
 	<h1>Add Games</h1>
   </div>
 
-<form role="form" action="addGames.php" method="post">
+<form role="form" action="indexGames.php" method="post">
   <div class="form-group">
     <label for="title">Title:</label>
     <input name="title" type="text" class="form-control" id="title">
   </div>
   <div class="form-group">
     <label for="releaseDate">Release Date:</label>
-    <input name="releaseDate" type="text" class="form-control" id="releaseDate">
+    <input name="releaseDate" type="date" class="form-control" id="releaseDate">
   </div>
   <div class="form-group">
     <label for="platformId">Platform:</label>
-    <input name="platformId" type="text" class="form-control" id="platformId">
+    <select name="platformId" id="platformId">
+		<?php foreach($platforms as $platform){?>
+			<option value="<?php echo $platform['platformId'];?>"><?php echo $platform['platformName'];?></option>
+		<?php }?>
+	</select>
   </div>
   <div class="form-group">
     <label for="publisherId">Publisher:</label>

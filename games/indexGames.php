@@ -5,7 +5,7 @@ if(isset($_POST['title'])){
 	$title = $_POST['title'];
 	$releaseDate = $_POST['releaseDate'];
 	$platformId = $_POST['platformId'];
-	$publisherId = $_POST['PublisherId'];
+	$publisherId = $_POST['publisherId'];
 	$esrbRatingId = $_POST['esrbRatingId'];
 	$parentGame = $_POST['parentGame'];
 
